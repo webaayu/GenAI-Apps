@@ -8,7 +8,6 @@ from langchain.llms import OpenAI
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 from langchain.chains import SequentialChain
-from langchain.callbacks import get_openai_callback #
 import PyPDF2
 
 #load environment var from .env
