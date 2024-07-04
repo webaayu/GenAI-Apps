@@ -7,7 +7,7 @@ import streamlit as st
 from MCQGen import generate_evaluate_chain
 
 # loading JSON file
-with open(r'C:\Users\Hardik\mcq-gen-url\Response.json','r', encoding="utf-8") as file:
+with open('./response.json','r', encoding="utf-8") as file:
     RESPONSE_JSON = json.load(file)
 
 #create a title
